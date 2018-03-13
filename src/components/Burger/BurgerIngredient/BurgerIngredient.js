@@ -3,7 +3,7 @@ import classes from './BurgerIngredient.css';
 import PropTypes from 'prop-types'
 
 class BurgerIngredient extends React.Component {
-  render () {
+  render() {
     let ingredient = null;
 
     switch (this.props.type) {
