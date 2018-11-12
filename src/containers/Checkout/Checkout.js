@@ -12,7 +12,6 @@ class Checkout extends Component {
     }
 
     checkoutContinuedHandler = () => {
-        console.log('checkoutContinuedHandler');
         this.props.history.replace('/checkout/contact-data');
     }
 
